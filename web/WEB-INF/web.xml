@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+           version="3.0">
+
+    <servlet>
+        <servlet-name>ServletSpare</servlet-name>
+        <servlet-class>entities.ServletSpare</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSpare</servlet-name>
+        <url-pattern>/ServletSpare</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MainLoginServlet</servlet-name>
+        <servlet-class>DB_Project.MainLoginServlet</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainLoginServlet</servlet-name>
+        <url-pattern>/MainLoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletFindSpare</servlet-name>
+        <servlet-class>entities.ServletFindSpare</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletFindSpare</servlet-name>
+        <url-pattern>/ServletFindSpare</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletRemoveSpare</servlet-name>
+        <servlet-class>entities.ServletRemoveSpare</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRemoveSpare</servlet-name>
+        <url-pattern>/ServletRemoveSpare</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminOp</servlet-name>
+        <servlet-class>entities.AdminOp</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminOp</servlet-name>
+        <url-pattern>/AdminOp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminOp2</servlet-name>
+        <servlet-class>entities.AdminOp2</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminOp2</servlet-name>
+        <url-pattern>/AdminOp2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>App1</servlet-name>
+        <servlet-class>entities.App1</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>App1</servlet-name>
+        <url-pattern>/App1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BlockOp</servlet-name>
+        <servlet-class>entities.BlockOp</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BlockOp</servlet-name>
+        <url-pattern>/BlockOp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Bpage</servlet-name>
+        <servlet-class>entities.Bpage</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Bpage</servlet-name>
+        <url-pattern>/Bpage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DisplayServlet</servlet-name>
+        <servlet-class>entities.DisplayServlet</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayServlet</servlet-name>
+        <url-pattern>/DisplayServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>FifthPage</servlet-name>
+        <servlet-class>entities.FifthPage</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FifthPage</servlet-name>
+        <url-pattern>/FifthPage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>FromTo</servlet-name>
+        <servlet-class>entities.FromTo</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FromTo</servlet-name>
+        <url-pattern>/FromTo</url-pattern>
+    </servlet-mapping>
+
+
+
+<servlet>
+<servlet-name>ServletSpareUpdate2</servlet-name>
+<servlet-class>entities.ServletSpareUpdate2</servlet-class>
+
+</servlet>
+    <servlet-mapping>
+
+    <servlet-name>ServletSpareUpdate2</servlet-name>
+    <url-pattern>/ServletSpareUpdate2</url-pattern>
+</servlet-mapping>
+    <servlet>
+        <servlet-name>FourthPage</servlet-name>
+        <servlet-class>entities.FourthPage</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FourthPage</servlet-name>
+        <url-pattern>/FourthPage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutAdmin</servlet-name>
+        <servlet-class>entities.LogoutAdmin</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutAdmin</servlet-name>
+        <url-pattern>/LogoutAdmin</url-pattern>
+    </servlet-mapping>
+   <servlet>
+        <servlet-name>SecondPage</servlet-name>
+        <servlet-class>entities.SecondPage</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecondPage</servlet-name>
+        <url-pattern>/SecondPage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletFindVehicle</servlet-name>
+        <servlet-class>entities.ServletFindVehicle</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletFindVehicle</servlet-name>
+        <url-pattern>/ServletFindVehicle</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletSpareVehicle</servlet-name>
+        <servlet-class>entities.ServletSpareVehicle</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSpareVehicle</servlet-name>
+        <url-pattern>/ServletSpareVehicle</url-pattern>
+    </servlet-mapping>
+    <servlet>
+
+        <servlet-name>SelectPage</servlet-name>
+        <servlet-class>entities.SelectPage</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SelectPage</servlet-name>
+        <url-pattern>/SelectPage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ThirdPage</servlet-name>
+        <servlet-class>entities.ThirdPage</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ThirdPage</servlet-name>
+        <url-pattern>/ThirdPage</url-pattern>
+    </servlet-mapping>
+</web-app>
